@@ -505,12 +505,15 @@ export default function Portfolio() {
       <Nav active={active} />
 
       {/* ── HERO ─────────────────────────────────────── */}
-      <section id="home" className="min-h-screen flex items-center justify-center relative pt-16">
-        <div className="text-center px-6 max-w-4xl mx-auto">
+     <section
+  id="home"
+  className="min-h-screen flex items-center justify-center relative pt-28 md:pt-32 lg:pt-36 pb-10"
+>
+       <div className="text-center px-6 max-w-4xl mx-auto w-full">
 
           {/* Avatar */}
           <SlideIn direction="down" delay={0}>
-            <div className="relative inline-block mb-8">
+           <div className="relative inline-block mt-6 md:mt-8 lg:mt-10 mb-8">
               <div className="w-28 h-28 rounded-2xl border border-cyan-400/40 pulse-ring overflow-hidden
                 mx-auto shadow-[0_0_50px_rgba(0,245,255,0.12)]">
                 <img
@@ -540,7 +543,7 @@ export default function Portfolio() {
 
           {/* Name */}
           <SlideIn direction="up" delay={140}>
-            <h1 className="text-4xl md:text-6xl font-black leading-tight tracking-tight mb-3">
+           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-3 px-2">
               SK Shahid{" "}
               <span className="text-cyan-400 neon">Shahriyor</span>{" "}
               Ahmed
