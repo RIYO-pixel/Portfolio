@@ -86,7 +86,7 @@ const data = {
   ],
   skills: {
     "Programming Languages": ["C", "Java", "SQL", "HTML5", "CSS"],
-    "Tools & Platforms": ["Git", "JDK", "VS Code", "MySQL", "Power BI", "Colab", "JIRA", "Postman", "Selenium"],
+    "Tools & Platforms": ["Git", "MySQL", "Power BI", "Colab", "Postman"],
     "Soft Skills": ["Problem Solving", "Team Collaboration", "Agile Development"],
   },
   certifications: ["Preparing Data for Analysis with Microsoft Excel"],
@@ -392,7 +392,7 @@ function Nav({ active }) {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-cyan-900/30 bg-black/75 backdrop-blur-xl">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <span className="font-mono text-cyan-400 text-base font-bold tracking-wider select-none">
-          &lt;SK_<span className="text-white">Shahriyor</span><span className="text-cyan-400">/&gt;</span>
+          &lt;Shahid_<span className="text-white">Shahriyor</span><span className="text-cyan-400">/&gt;</span>
         </span>
         <div className="hidden md:flex gap-7">
           {NAV_LINKS.map(l => (
